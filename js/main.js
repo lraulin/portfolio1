@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
   $("#header").load("header.html");
-  $("#footer").load("footer.html");
 
   // init isotope
   $('.portfolio-items').isotope({
@@ -17,5 +16,7 @@ $(document).ready(function() {
     var filterValue = $(this).attr("data-filter");
     $('.portfolio-items').isotope({ filter: filterValue });
   });
+
+  $("#footer").load("footer.html");
 
 });
