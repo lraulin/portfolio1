@@ -18,5 +18,5 @@ $(document).ready(function() {
   });
 
   $("#footer").load("footer.html");
-
+  $("#showAll").click();
 });
