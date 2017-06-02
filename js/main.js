@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#header").load("header.html");
+  // $("#header").load("header.html");
 
   // init isotope
   $('.portfolio-items').isotope({
@@ -17,6 +17,6 @@ $(document).ready(function() {
     $('.portfolio-items').isotope({ filter: filterValue });
   });
 
-  $("#footer").load("footer.html");
+  // $("#footer").load("footer.html");
   $("#showAll").click();
 });
