@@ -13,6 +13,8 @@ $(document).ready(function() {
   //filter items on button click
   $(".portfolio-filter").on("click", "a", function(e) {
     e.preventDefault();
+    $(".active").removeClass("active");
+    $(this).parent().addClass("active");
     var filterValue = $(this).attr("data-filter");
     $('.portfolio-items').isotope({ filter: filterValue });
   });
