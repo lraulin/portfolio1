@@ -12,7 +12,7 @@ $(function() {
           console.log(title);
           if (title.indexOf('JavaScript') >= 0 || title.indexOf('jQuery') >= 0) {
             type = "js";
-          } else if (title.indexOf('CSS') >= 0 || title.indexOf('Bootstrap') >= 0 || title.indexOf('Front-end') >= 0 || title.indexOf('SASS') >= 0) {
+          } else if (title.indexOf('CSS') >= 0 || title.indexOf('Bootstrap') >= 0 || title.indexOf('Front-end') >= 0 || title.indexOf('Sass') >= 0) {
             type = "html";
           } else if (title.indexOf('Python') >= 0 || title.indexOf('Django') >= 0) {
             type = "python";
